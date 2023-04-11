@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  .wrapper {
+    width: calc(min(110rem, 100%));
+    min-height: 100vh;
+    margin: auto;
+    padding: 6rem 0rem 0 0rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    .wrapper {
+      padding: 8rem 0rem 0 0rem;
+    }
+  }
+}
