@@ -1,5 +1,3 @@
-import styles from './auth.module.scss';
-
 import { Box, Button, Card, IconButton, InputAdornment, Modal, TextField, Typography } from '@mui/material';
 import axios from 'axios';
 import React, { useReducer } from 'react';
@@ -8,6 +6,8 @@ import { RxEyeClosed, RxEyeOpen } from 'react-icons/rx';
 
 import AuthPassReset from '@/features/auth/auth_pass_reset';
 import { useAuthStore } from '@/store/auth_store';
+
+import styles from './auth.module.scss';
 
 type Props = {
   open: boolean;
